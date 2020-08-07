@@ -1,0 +1,98 @@
+#logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+#home {
+    background-image: radial-gradient(rgba(236, 141, 32, 0.8), rgba(0, 0, 0, 0.8)), url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#home .img-box img {
+    height: auto;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.row {
+    margin: initial!important;
+}
+
+.bio {
+    max-width: 500px;
+    margin-top: 90px;
+    padding: 30px;
+    margin-left: 70px;
+    background: #ff5100fd;
+    margin-bottom: 20px;
+}
+
+.bio a {
+    width: 200px;
+    display: block;
+    color: #ff5100fd;
+    background: #FFA833;
+    padding: 5px;
+    text-align: center;
+}
+
+.row img {
+    width: 300px;
+    height: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+#contacts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/9.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ff5100fd !important;
+    background-attachment: local;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contacts h1 {
+    text-align: center;
+    color: rgb(241, 142, 142) !important;
+    padding-bottom: 12px;
+}
+
+#contacts h1::after {
+    content: '';
+    background: #ff5100fd;
+    display: block;
+    height: 7px;
+    width: 250px;
+    margin: 20px auto 5px;
+}
+
+.follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 9px!important;
+}
+
+#contact-info .fa {
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: darkslategray;
+    height: 50px;
+}
+
+.fa-heart-o {
+    margin: 3px;
+    color: red;
+}
