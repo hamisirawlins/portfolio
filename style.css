@@ -49,35 +49,42 @@
     margin-bottom: 30px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+}
+
+.portfolio iframe {
+    padding-top: 30px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+}
+
 .portfolio h1 {
     text-align: center;
-    color: #ff5100fd !important;
+    color: #ff5100da !important;
     padding-bottom: 12px;
 }
 
 .portfolio h4 {
     text-align: center;
-    color: #efefef;
+    color: #ff5100;
     padding-bottom: 12px;
 }
 
 .portfolio h1::after {
     content: '';
-    background: #ff5100fd;
+    background: rgba(236, 141, 32, 0.8);
     display: block;
     height: 7px;
-    width: 250px;
+    width: 300px;
     margin: 20px auto 5px;
-}
-
-#site1 img {
-    width: 560px;
-    height: auto;
-}
-
-#site2 img {
-    width: 560px;
-    height: auto;
+    border-radius: 5px;
 }
 
 #contacts {
