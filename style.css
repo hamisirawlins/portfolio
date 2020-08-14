@@ -44,7 +44,6 @@
 }
 
 .portfolio {
-    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -85,6 +84,15 @@
     width: 300px;
     margin: 20px auto 5px;
     border-radius: 5px;
+}
+
+.portfolio a {
+    width: 200px;
+    display: block;
+    color: #ff5100fd;
+    background: #FFA833;
+    padding: 5px;
+    text-align: center;
 }
 
 #contacts {
