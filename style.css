@@ -141,13 +141,13 @@ h6,
 
 .portfolio h1 {
     text-align: center;
-    color: #ff5100da !important;
+    color: #ff5100fd !important;
     padding-bottom: 12px;
 }
 
 .portfolio h4 {
     text-align: center;
-    color: #ff5100;
+    color: #ff5100fd;
     padding-bottom: 12px;
 }
 
@@ -178,7 +178,7 @@ h6,
 
 #contacts h1 {
     text-align: center;
-    color: rgb(241, 142, 142) !important;
+    color: #ff5100fd;
     padding-bottom: 12px;
 }
 
