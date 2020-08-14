@@ -119,12 +119,14 @@ h6,
 }
 
 .portfolio {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background-color: rgb(255, 253, 208);
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .grid-container {
     display: grid;
+    text-align: center;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 1fr;
     gap: 20px 20px;
@@ -212,4 +214,10 @@ h6,
 .fa-heart-o {
     margin: 3px;
     color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-m-6 {
+        width: 50%;
+    }
 }
