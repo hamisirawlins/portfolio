@@ -74,6 +74,10 @@ h6,
     color: white;
 }
 
+.links a {
+    text-decoration: none;
+}
+
 #logo {
     height: 30px;
     width: 30px;
@@ -109,6 +113,18 @@ h6,
     background: #FFA833;
     padding: 5px;
     text-align: center;
+    border-radius: 5px;
+}
+
+.bio a:hover {
+    width: 200px;
+    display: block;
+    color: #ff5100fd;
+    background: #f1d1a7;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .row img {
@@ -122,34 +138,17 @@ h6,
     background-color: rgb(255, 253, 208);
     padding-top: 70px;
     padding-bottom: 70px;
-}
-
-.grid-container {
-    display: grid;
     text-align: center;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 1fr;
-    gap: 20px 20px;
 }
 
-.portfolio iframe {
-    padding-top: 30px;
-}
-
-.portfolio img {
-    width: 100%;
-    height: auto;
+.portfolio .lnr {
+    font-size: 50px;
+    color: #222;
 }
 
 .portfolio h1 {
     text-align: center;
     color: #ff5100fd !important;
-    padding-bottom: 12px;
-}
-
-.portfolio h4 {
-    text-align: center;
-    color: #ff5100fd;
     padding-bottom: 12px;
 }
 
@@ -164,16 +163,20 @@ h6,
 }
 
 .portfolio a {
-    width: 200px;
+    width: auto;
     display: block;
     color: #ff5100fd;
-    background: #FFA833;
     padding: 5px;
+    border-radius: 5px;
     text-align: center;
 }
 
+.portfolio a:hover {
+    text-decoration: none;
+}
+
 #contacts {
-    background-image: radial-gradient(rgba(236, 141, 32, 0.8), rgba(0, 0, 0, 0.8));
+    background-color: rgb(252, 223, 130);
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -186,11 +189,12 @@ h6,
 
 #contacts h1::after {
     content: '';
-    background: #ff5100fd;
+    background: rgba(236, 141, 32, 0.8);
     display: block;
     height: 7px;
     width: 250px;
     margin: 20px auto 5px;
+    border-radius: 5px;
 }
 
 .follow {
@@ -216,8 +220,8 @@ h6,
     color: red;
 }
 
-@media only screen and (max-width: 600px) {
-    .col-m-6 {
-        width: 50%;
+@media (max-width: 767px) {
+    .no-flex-xs {
+        display: block !important;
     }
 }
