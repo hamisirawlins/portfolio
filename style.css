@@ -113,7 +113,7 @@ h6,
     background: #FFA833;
     padding: 5px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .bio a:hover {
@@ -123,7 +123,7 @@ h6,
     background: #f1d1a7;
     padding: 5px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ h6,
 
 .portfolio .lnr {
     font-size: 50px;
-    color: #222;
+    color: rgb(163, 55, 5);
 }
 
 .portfolio h1 {
@@ -181,13 +181,13 @@ h6,
     padding-bottom: 30px;
 }
 
-#contacts h1 {
+#contacts h2 {
     text-align: center;
     color: #ff5100fd;
     padding-bottom: 12px;
 }
 
-#contacts h1::after {
+#contacts h2::after {
     content: '';
     background: rgba(236, 141, 32, 0.8);
     display: block;
@@ -197,22 +197,33 @@ h6,
     border-radius: 5px;
 }
 
-.follow {
-    background: #fff;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 9px!important;
+.contact-area {
+    background: beige;
 }
 
-#contact-info .fa {
-    margin: 10px;
-    color: #007bff;
-    font-weight: bold;
+#contactli {
+    text-align: center;
+}
+
+#contacts a {
+    color: #ff5100fd;
+    background: #FFA833;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contacts a:hover {
+    color: #ff5100fd;
+    background: #f1d1a7;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 #footer {
     background-color: rgb(52, 58, 64);
-    height: 50px;
+    height: 30px;
+    color: bisque;
 }
 
 .fa-heart-o {
